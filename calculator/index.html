@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="content">
+        <h1>Calculator</h1>
+        <div class="inputdiv">
+            <div class="firstInput">
+                <input style="height: 10vh; width: 20vw; border-radius: 5px;" id="inputValueOne" placeholder="Insert Number" type="number">
+            </div>
+            <div class="secondInput">
+                <input style="height: 10vh; width: 20vw; border-radius: 5px; " id="inputValueTwo" placeholder="Insert Number" type="number"> 
+            </div>
+        </div>
+        <div class="operation">
+            <div class="add">
+                <button style="height: 10vh; width: 10vw; border-radius: 5px;" onclick="addition()"> ADD </button>
+            </div>
+            <div class="subtract">
+                <button style="height: 10vh; width: 10vw; border-radius: 5px;" onclick="subtraction()">SUBTRACT</button>  
+            </div>
+            <div class="multiply">
+                <button style="height: 10vh; width: 10vw; border-radius: 5px;" onclick="multiplication()">MULTIPLY</button>
+            </div>
+            <div class="divide">
+                <button style="height: 10vh; width: 10vw; border-radius: 5px;" onclick="division()">DIVIDE</button>
+            </div>
+        </div>
+        <div class="result"></div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
