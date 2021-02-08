@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>THE NATIONAL CHAMPIONSHIP</h1>
+    </div>
+    <div class="content">
+        <br>
+        <div class="col1">
+            <div class="container2">
+                <h2> TEAM 1 </h2>
+                <div id="score1">0</div>
+                <button onclick="addPT1()">+</button>
+                <button onclick="minusPT1()">-</button>
+            </div>
+            <div class="penalty">
+                <h2>PENALTY</h2>
+                <div class="box-penalty1"></div>
+                <input id="inputname" placeholder="Add player's name"><br>
+                <button onclick="addPenalty1()">Add Penalty</button>
+                <button onclick="resetPenalty1()">reset penalty</button></input>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div class="countdown">10:00</div>
+            <h2>PERIOD</h2>
+            <div class="box" id="period">1</div>
+            <button onclick="periodPlus()">+</button>
+            <button onclick="periodMinus()">-</button>
+            <button onclick="reset()">reset</button>
+        </div>
+
+        <div class="col3">
+            <div class="container2">
+                <h2> TEAM 2</h2>
+                <div id="score2">0</div>
+                <button onclick="addPT2()">+</button>
+                <button onclick="minusPT2()">-</button>
+            </div>
+            <div class="penalty">
+                <h2>PENALTY</h2>
+                <div class="box-penalty2"></div>
+                <input id="inputname2" placeholder="Add player's name"><br>
+                <button onclick="addPenalty2()">Add Penalty</button>
+                <button onclick="resetPenalty()">reset penalty</button></input>
+            </div>
+        </div>
+    </div>
+
+<script src="challenge3.js"></script>
+
+</body>
+
+</html>
