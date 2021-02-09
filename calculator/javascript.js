@@ -1,9 +1,6 @@
-let firstValue = document.getElementById("inputValueOne").value;
-let secondValue = document.getElementById("inputValueTwo").value;
-
 function addition() {
-    let firstValue = document.getElementById("inputValueOne").value;
-    let secondValue = document.getElementById("inputValueTwo").value;
+    let firstValue = document.querySelector(".inputValueOne").value;
+    let secondValue = document.querySelector("inputValueTwo").value;
 
     firstValue = parseInt(firstValue);
     secondValue = parseInt(secondValue);
@@ -13,30 +10,30 @@ function addition() {
 }
 
 function subtraction() {
-    let firstValue = document.getElementById("inputValueOne").value;
-    let secondValue = document.getElementById("inputValueTwo").value;
+    let firstValue = document.querySelector(".inputValueOne").value;
+    let secondValue = document.querySelector(".inputValueTwo").value;
 
     firstValue = parseInt(firstValue);
     secondValue = parseInt(secondValue);
 
     let subtractionResult = firstValue - secondValue;
-    document.querySelector = (".result").innerHTML = subtractionResult;
+    document.querySelector(".result").innerHTML = subtractionResult;
 }
 
 function multiplication() {
-    let firstValue = document.getElementById("inputValueOne").value;
-    let secondValue = document.getElementById("inputValueTwo").value;
+    let firstValue = document.querySelector(".inputValueOne").value;
+    let secondValue = document.querySelector(".inputValueTwo").value;
 
     firstValue = parseInt(firstValue);
     secondValue = parseInt(secondValue);
 
     let multiplicationResult = firstValue * secondValue; 
-    document.querySelector = (".result").innerHTML = multiplicationResult;
+    document.querySelector(".result").innerHTML = multiplicationResult;
 }
 
 function division() {
-    let firstValue = document.getElementById("inputValueOne").value;
-    let secondValue = document.getElementById("inputValueTwo").value;
+    let firstValue = document.querySelector(".inputValueOne").value;
+    let secondValue = document.querySelector(".inputValueTwo").value;
 
     firstValue = parseInt(firstValue);
     secondValue = parseInt(secondValue);
