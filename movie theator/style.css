@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Arial; 
+    background-color: rgb(3, 4, 53);
+}
+
+h1 { 
+    text-align: center;
+    padding: 5vh;
+    color: rgb(236, 232, 232);
+}
+
+.movie{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie1, .movie2, .movie3, .movie4, .movie5, .movie6 {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 23vw;
+    margin: 2vw;
+}
+
+.title1, .title2, .title3, .title4, .title5, .title6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.imagestyle{ 
+    width: 23vw;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.div {
+    display: flex; 
+    justify-content: center; 
+}
+
+#movietitle, #picturelink {
+    margin: 10px;
+    width: 320px;
+    color:white;
+    border: 1px solid white;
+}
+
+#buttonID {
+    margin: 10px;
+    padding: 0px 20px;
+    color:white;
+}
